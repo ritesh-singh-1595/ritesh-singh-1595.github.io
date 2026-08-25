@@ -1,48 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Ritesh Singh | Web Developer</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ritesh Singh — aspiring Machine Learning Engineer, AI/ML student and open-source contributor." />
+  <title>Ritesh Singh | ML Engineer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div class="cursor-glow"></div>
+  <header class="nav">
+    <a class="brand" href="#home"><span>RS</span></a>
+    <nav id="navLinks">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="menu" aria-label="Toggle menu">☰</button>
+  </header>
 
-    <header>
-        <h1>Ritesh Singh</h1>
-        <p>Web Developer | Python Programmer</p>
-    </header>
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">AI/ML • PYTHON • OPEN SOURCE</p>
+        <h1>Building practical<br><span>intelligent systems.</span></h1>
+        <p class="lead">I'm <strong>Ritesh Singh</strong>, a second-year B.Tech CSE (AI & ML) student focused on machine learning, data-driven products and real-world AI/IoT projects.</p>
+        <div class="actions">
+          <a class="btn primary" href="#projects">Explore projects <span>↗</span></a>
+          <a class="btn secondary" href="mailto:riteshsinghrs2006@gmail.com">Let's connect</a>
+        </div>
+        <div class="socials">
+          <a href="https://github.com/ritesh-singh-1595" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/riteshsingh1595" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+        </div>
+      </div>
+      <div class="hero-art reveal">
+        <div class="orb"></div>
+        <div class="code-card">
+          <div class="dots"><i></i><i></i><i></i></div>
+          <pre><span class="kw">model</span> = <span class="fn">LogisticRegression</span>()
+<span class="kw">model</span>.<span class="fn">fit</span>(X_train, y_train)
 
-    <section>
-        <h2>About Me</h2>
-        <p>
-            I am a first-year B.Tech Computer Science (AI & ML) student with skills in HTML, CSS, and Python.
-            I enjoy building clean, responsive websites and learning new technologies.
-        </p>
+accuracy = <span class="num">0.7143</span>
+<span class="fn">print</span>(<span class="str">"Model ready."</span>)</pre>
+        </div>
+        <div class="floating-tag tag-1">Python</div>
+        <div class="floating-tag tag-2">ML</div>
+        <div class="floating-tag tag-3">ESP8266</div>
+      </div>
     </section>
 
-    <section>
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Python</li>
-            <li>C / C++</li>
-            <li>Responsive Web Design</li>
-        </ul>
+    <section id="about" class="section split">
+      <div class="section-head reveal">
+        <p class="eyebrow">01 — ABOUT</p>
+        <h2>Curious by nature.<br>Hands-on by choice.</h2>
+      </div>
+      <div class="about-text reveal">
+        <p>I enjoy turning concepts from machine learning and computer science into working projects. My current foundation spans Python, data analysis, classical ML, C/C++, embedded systems and open-source collaboration.</p>
+        <p>I'm seeking a <strong>Machine Learning Internship</strong> where I can learn from experienced engineers, contribute to production-minded work and keep building useful AI solutions.</p>
+        <div class="stat-row">
+          <div><strong>2029</strong><span>Expected graduation</span></div>
+          <div><strong>71.43%</strong><span>Diabetes model accuracy</span></div>
+          <div><strong>OWASP</strong><span>Open-source contributor</span></div>
+        </div>
+      </div>
     </section>
 
-    <section>
-        <h2>Projects</h2>
-        <ul>
-            <li>Personal Portfolio Website (HTML & CSS)</li>
-            <li>Business Landing Page (Practice Project)</li>
-        </ul>
+    <section id="skills" class="section">
+      <div class="section-head reveal">
+        <p class="eyebrow">02 — TOOLKIT</p>
+        <h2>Skills that move<br>from notebook to device.</h2>
+      </div>
+      <div class="skill-grid">
+        <article class="skill-card reveal"><span class="skill-num">01</span><h3>Programming</h3><p>Python · C · C++</p></article>
+        <article class="skill-card reveal"><span class="skill-num">02</span><h3>ML & Data</h3><p>NumPy · Pandas · Scikit-learn</p></article>
+        <article class="skill-card reveal"><span class="skill-num">03</span><h3>Developer Tools</h3><p>Jupyter · Linux · Git · GitHub · VS Code</p></article>
+        <article class="skill-card reveal"><span class="skill-num">04</span><h3>Web</h3><p>HTML · CSS</p></article>
+        <article class="skill-card reveal"><span class="skill-num">05</span><h3>Embedded</h3><p>ESP32 · ESP8266 · Embedded C</p></article>
+      </div>
     </section>
 
-    <section>
-        <h2>Contact</h2>
-        <p>Email: riteshsinghrs2006@gmail.com</p>
+    <section id="projects" class="section">
+      <div class="section-head reveal">
+        <p class="eyebrow">03 — SELECTED WORK</p>
+        <h2>Projects with a<br>real-world angle.</h2>
+      </div>
+      <div class="projects">
+        <article class="project featured reveal">
+          <div class="project-index">01</div>
+          <div class="project-content">
+            <p class="project-type">MACHINE LEARNING</p>
+            <h3>Diabetes Prediction<br>using Logistic Regression</h3>
+            <p>Binary classification on the Pima Indians Diabetes Dataset, covering preprocessing, train/test split and model evaluation. Reached 71.43% accuracy.</p>
+            <div class="chips"><span>Python</span><span>Pandas</span><span>Scikit-learn</span></div>
+          </div>
+          <div class="project-arrow">↗</div>
+        </article>
+
+        <article class="project reveal">
+          <div class="project-index">02</div>
+          <div class="project-content">
+            <p class="project-type">MACHINE LEARNING</p>
+            <h3>Salary Prediction</h3>
+            <p>Built a salary prediction model with Python and Pandas, including preprocessing, training and evaluation.</p>
+            <div class="chips"><span>Python</span><span>Pandas</span></div>
+          </div>
+          <div class="project-arrow">↗</div>
+        </article>
+
+        <article class="project accent reveal">
+          <div class="project-index">03</div>
+          <div class="project-content">
+            <p class="project-type">AI + IOT</p>
+            <h3>AcciSense</h3>
+            <p>Real-time accident detection and SOS system using ESP8266, GPS, vibration, flame and smoke sensors. Featured in Hindustan and Amar Ujala.</p>
+            <div class="chips"><span>ESP8266</span><span>GPS</span><span>Embedded C</span></div>
+          </div>
+          <div class="project-arrow">↗</div>
+        </article>
+
+        <article class="project reveal">
+          <div class="project-index">04</div>
+          <div class="project-content">
+            <p class="project-type">C++</p>
+            <h3>Student Management System</h3>
+            <p>Object-oriented console application with persistent file storage, designed to manage student records.</p>
+            <div class="chips"><span>C++</span><span>OOP</span><span>File I/O</span></div>
+          </div>
+          <div class="project-arrow">↗</div>
+        </article>
+
+        <article class="project reveal">
+          <div class="project-index">05</div>
+          <div class="project-content">
+            <p class="project-type">OPEN SOURCE</p>
+            <h3>OWASP Contributions</h3>
+            <p>Merged pull requests that improve security documentation and contributed to open-source collaboration.</p>
+            <div class="chips"><span>Git</span><span>GitHub</span><span>Security Docs</span></div>
+          </div>
+          <div class="project-arrow">↗</div>
+        </article>
+      </div>
     </section>
 
+    <section id="education" class="section split">
+      <div class="section-head reveal">
+        <p class="eyebrow">04 — EDUCATION</p>
+        <h2>Learning the<br>foundations.</h2>
+      </div>
+      <div class="timeline reveal">
+        <div class="timeline-item">
+          <span>2025 — 2029</span>
+          <h3>B.Tech Computer Science Engineering (AI & ML)</h3>
+          <p>Pranveer Singh Institute of Technology, Kanpur</p>
+        </div>
+        <div class="timeline-item">
+          <span>HIGHLIGHTS</span>
+          <h3>Building beyond coursework</h3>
+          <p>TechFest Project Showcase · Hindustan & Amar Ujala feature · OWASP Open-Source Contributor · Active GitHub Contributor</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section reveal">
+      <p class="eyebrow">05 — CONTACT</p>
+      <h2>Let's build something<br><span>worth shipping.</span></h2>
+      <p>Open to ML internships, collaborative projects and meaningful open-source work.</p>
+      <a class="email" href="mailto:riteshsinghrs2006@gmail.com">riteshsinghrs2006@gmail.com ↗</a>
+      <div class="contact-links">
+        <a href="tel:+916392844852">+91 63928 44852</a>
+        <span>Kanpur, Uttar Pradesh</span>
+        <a href="https://github.com/ritesh-singh-1595" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://www.linkedin.com/in/riteshsingh1595" target="_blank" rel="noreferrer">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>© 2026 Ritesh Singh</span>
+    <span>Designed & built with HTML, CSS & JS</span>
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>
